@@ -1,0 +1,5 @@
+venv/
+audio_downloads/
+extraction_output/
+__pycache__/
+*.pyc
