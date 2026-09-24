@@ -178,10 +178,9 @@ def test_local_file(video_path: str, video_id: str):
 
     save_output(video_id, transcript_data)
 
-
 if __name__ == "__main__":
     # Uncomment ONE of the lines below to choose what to run:
 
-    # run()  # process the MANUAL_VIDEO_IDS / channel list as usual
+    run()  # process the MANUAL_VIDEO_IDS / channel list as usual
 
-    test_local_file(r"C:\Users\siyaa\Downloads\test1.mp4", "test1_local")
+    # test_local_file(r"C:\Users\siyaa\Downloads\test1.mp4", "test1_local")
